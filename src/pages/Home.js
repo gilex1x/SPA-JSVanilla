@@ -1,5 +1,5 @@
 const Home =()=>{
-    const view =`
+    return `
         <div class="characters">
             <article class="character-item">
                 <a href="#/1">
@@ -9,7 +9,7 @@ const Home =()=>{
             </article>
         </div>
     `;
-    return view;
+     
 }
 
 export default Home;
