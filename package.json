@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {},
-  "scripts": {},
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "babel-loader": "^8.2.2",
